@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Custom Theme */
+:root {
+  --color-primary: #7c3aed;
+  --color-primary-dark: #5b21b6;
+  --color-primary-light: #a78bfa;
+  --color-accent: #ede9fe;
+}
+
+/* Global Styles */
+body {
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(to bottom right, #faf5ff, #ffffff);
+  color: #1f2937;
+}
+
+/* .btn-primary {
+  @apply bg-purple-600 text-white px-6 py-2 rounded-lg font-medium 
+  hover:bg-purple-700 transition duration-300;
+} */
